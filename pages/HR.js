@@ -3,9 +3,9 @@ import React from 'react'
 export default function HR() {
   return (
     <div>
-        <div className="w-full h-screen bg-slate-900 group text-white sm:w-full pt-10">
-            <div className="py-5 rounded-2xl  border-white-700  text-start  mx-auto w-10/12 lg:top-40 md:px-10 lg:px-16 xl:px-20 relative md:rounded-2xl  border-white-700  sm:rounded-2xl border border-white-700 border-opacity-70 bg-gray-900 bg-opacity-20 backdrop-blur-xl shadow-2xl  md:-mt-20 lg:-mt-24 xl:-mt-32 transition duration-700 group-hover:scale-95">
-              <h5 className="text-3xl  text-center text-gray-300 group-hover:text-white lg:full sm:w-full lg:text-4xl  lg:py-10">
+        <div className="w-full bg-slate-900 group text-white sm:w-full pt-10">
+            <div className="py-5 rounded-2xl border-white-700  text-start  mx-auto w-10/12 lg:top-40 md:px-10 lg:px-16 xl:px-20 relative md:rounded-2xl  border-white-700  sm:rounded-2xl border border-white-700 border-opacity-70 bg-gray-900 bg-opacity-20 backdrop-blur-xl shadow-2xl  md:-mt-20 lg:-mt-24 xl:-mt-32 transition duration-700 group-hover:scale-95">
+              <h5 className="text-3xl text-center text-gray-300 group-hover:text-white lg:full sm:w-full lg:text-4xl  lg:py-10">
                 South America<br />
                 (Human Resource)
               </h5>
