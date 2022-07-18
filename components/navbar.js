@@ -1,11 +1,10 @@
-import Image from "next/dist/client/image"
-import Link from "next/link"
-import { useState } from "react"
+import Image from 'next/dist/client/image';
+import Link from 'next/link';
+import { useState } from 'react';
 
 function Navbar() {
-  
-  const [isOpen, setIsOpen] = useState(false)
-  
+  const [isOpen, setIsOpen] = useState(false);
+
   return (
     <header className="bg-slate-900 sticky">
       <div className="max-w-screen-xl px-4 mx-auto sm:px-6 lg:px-8">
@@ -13,15 +12,34 @@ function Navbar() {
           <div className="flex-1 md:flex md:items-center md:gap-12">
             <a className="block text-teal-300">
               <span className="sr-only">Home</span>
-              <Image src="/../public/synergy.png" width='140px' height='52px' classNameName='' alt='synergy'/>
+              <img
+                src="/synergy.png"
+                width="140px"
+                height="52px"
+                classNameName=""
+                alt="synergy"
+              />
             </a>
           </div>
 
-          <div className={isOpen == true ? "md:flex md:items-center md:gap-12 bg-slate-900 p-5 md:p-0" : "md:flex md:items-center md:gap-12 bg-slate-900"}>
-            <nav className={ isOpen == true ? "flex flex-col md:block " : "hidden md:block"} aria-labelledby="header-navigation">
-              <h2 className="sr-only" id="header-navigation">Header navigation</h2>
+          <div
+            className={
+              isOpen == true
+                ? 'md:flex md:items-center md:gap-12 bg-slate-900 p-5 md:p-0'
+                : 'md:flex md:items-center md:gap-12 bg-slate-900'
+            }
+          >
+            <nav
+              className={
+                isOpen == true ? 'flex flex-col md:block ' : 'hidden md:block'
+              }
+              aria-labelledby="header-navigation"
+            >
+              <h2 className="sr-only" id="header-navigation">
+                Header navigation
+              </h2>
 
-              <ul className="flex flex-col relative md:flex-row items-center md:gap-8 pt-32  md:pt-0 text-base" >
+              <ul className="flex flex-col relative md:flex-row items-center md:gap-8 pt-32  md:pt-0 text-base">
                 <li>
                   <Link href="/">
                     <a className="text-yellow-500 transition hover:text-red-600">
@@ -29,7 +47,7 @@ function Navbar() {
                     </a>
                   </Link>
                 </li>
-                
+
                 <li>
                   <Link href="/About">
                     <a className="text-yellow-500 transition hover:text-red-600">
@@ -92,7 +110,7 @@ function Navbar() {
         </div>
       </div>
     </header>
-  )
+  );
 }
 
-export default Navbar
+export default Navbar;
