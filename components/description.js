@@ -3,7 +3,7 @@ import React from 'react'
 export default function Description() {
   return (
     <div>
-        <div className='bg-gradient-to-bl from-slate-900 via-slate-900 to-red-900 text-center p-10'>
+        <div className='bg-gradient-to-bl from-slate-900 via-slate-900 to-red-900 text-center md:p-10'>
         
             <h2 className="text-3xl font-bold sm:text-4xl text-red-600">About Synergy</h2>
 

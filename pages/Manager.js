@@ -23,7 +23,8 @@ export default function Manager() {
                 Student Co-ordinators:
               </h5>
               <h5 className="px-10 lg:px-28 text-center lg:full sm:w-full">
-                ARCHANA BALIGA- +916360335749
+                ABHISHEK SHARMA- +917899545399 <br />
+                REMAL JASMINE PAIS- +918310546429
               </h5>
               <br />
             </div>
